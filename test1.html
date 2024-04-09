@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тренажёр для счёта</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="navbar" id = "hide-header">
+        <a href="main.html">Главная</a>
+        <a href="test1.html">Тренажёр</a>
+        <a href="articles.html">Статьи</a>
+        <a href="contacts.html">Контакты</a>
+      </div>
+    <main>
+            <div id="container">
+            <p id="message" class="structure-elements"></p>
+<aside id="score" class="structure-elements">Счет: <span>0</span></aside>
+                <div id="calculation">
+                <section id="question" class="structure-elements"></section>
+                <p id="instruction" class="structure-elements">Нажмите на правильный ответ</p>
+<ul id="choices" class="structure-elements">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+<button id="start-reset" class="structure-elements">Начать игру</button>
+            <aside id="time-remaining" class="structure-elements">Оставшееся время: <span>60</span> sec</aside>
+            </div>
+<div id="game-over" class="structure-elements">
+                <p>Молодец!</p>
+                <p>Ваш счет равен <span></span>.</p>
+</div>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>

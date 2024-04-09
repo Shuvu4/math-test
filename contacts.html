@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тренажёр для счёта</title>
+   <link rel="stylesheet" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="navbar" id = "hide-header">
+        <a href="main.html">Главная</a>
+        <a href="test1.html">Тренажёр</a>
+        <a href="articles.html">Статьи</a>
+        <a href="contacts.html">Контакты</a>
+      </div>
+      <div class="main"> 
+                <h3>Контактная информация</h3>
+                <h4>Если у Вас есть какие-либо вопросы, пишите:</h4>
+                <div id="contact_form">
+                    <form method="post" action="">
+                        <label for="author">Ваше имя:</label>
+                        <input type="text" name="name" pattern="[А-Яа-яЁё]{4,}" title="Имя должно быть на русском. Пример: Степа, Петя, Вася, Оля" class="required input_field" />
+    
+                        <label for="email"><br>Ваш Email:</label>
+                        <input type="text" name="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="Пример: bloggood@mail.ru" class="validate-email required input_field" required />
+    
+                        <label for="text"><br>Ваш вопрос:</label>
+                        <textarea name="quest" rows="0" cols="0" class="required"></textarea>
+                        <div class="cleaner h10"></div>
+    
+                        <input type="submit" class="button" name="submit" value="Отправить" />
+                        <input type="reset" class="button" name="reset" value="Очистить" />
+    
+                    </form>
+                </div>
+                <div class="cleaner h10"></div>
+                <div class="cleaner h10"></div>
+                </div>
+                
+                <div id = "footer">
+                    <ul>
+                      <li><a href="https://vk.com/zemlanykh">VK</a></li>
+                      <li><a href="mailto:shedvlada@gmail.com">Email</a></li>
+                      <li><a href="https://github.com/Shuvu4">Github</a></li>
+                      <li>
+                        <p>👋</p>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+
+            </body>
+<script src="script.js"></script>
+</body>
+
+</html>
+</body>
+</html>
